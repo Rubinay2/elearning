@@ -167,7 +167,7 @@ resource "aws_ecs_task_definition" "e-learning-td" {
       name      = "e-learning-web"
       cpu       = 1024
       memory    = 2048
-      image     = "public.ecr.aws/i5f9a9t2/website-repo:latest"
+      image     = "public.ecr.aws/i5f9a9t2/mysite:latest"
       essential = true
       portMappings = [
         {

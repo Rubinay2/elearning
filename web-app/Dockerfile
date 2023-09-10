@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy index.html file to the container
-COPY index.html /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
 
 # Expose port 80 and 443 for incoming traffic
 EXPOSE 80 443
